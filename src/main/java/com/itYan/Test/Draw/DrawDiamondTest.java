@@ -11,7 +11,7 @@ public class DrawDiamondTest {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // user input the total number of layers of the diamond to be drawn
-        //System.out.println("Please enter how many layer your diamond have: ");
+        // System.out.println("Please enter how many layer your diamond have: ");
         //int totalLayer = sc.nextInt();
         int totalLayer = 7;
 
