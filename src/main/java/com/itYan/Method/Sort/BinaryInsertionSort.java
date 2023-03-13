@@ -1,5 +1,7 @@
 package main.java.com.itYan.Method.Sort;
 
+import java.util.Arrays;
+
 public class BinaryInsertionSort {
     /**
      * insertion sort
@@ -21,6 +23,7 @@ public class BinaryInsertionSort {
                 j--;
             }
             array[j+1] = temp;
+            System.out.println(Arrays.toString(array));
         }
     }
 
@@ -43,6 +46,7 @@ public class BinaryInsertionSort {
                 j--;
             }
             array[j+1] = temp;
+            System.out.println(Arrays.toString(array));
         }
     }
 

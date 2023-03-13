@@ -16,12 +16,13 @@ public class BubbleSortTest {
         //Integer[] array = ArrayUtil.createRandomArray(sc.nextInt());
 
         // show original array
-        System.out.println("==========================");
         System.out.println("The original array");
         System.out.println(Arrays.toString(array));
+        System.out.println("==========================");
 
         BubbleSort.sort(array);
         // show array after sort
+        System.out.println("==========================");
         System.out.println("Array after sort");
         System.out.println(Arrays.toString(array));
     }

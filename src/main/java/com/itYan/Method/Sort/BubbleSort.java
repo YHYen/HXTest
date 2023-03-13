@@ -2,6 +2,8 @@ package main.java.com.itYan.Method.Sort;
 
 import main.java.com.itYan.Utils.SortUtil;
 
+import java.util.Arrays;
+
 public class BubbleSort {
 
     /**
@@ -24,6 +26,9 @@ public class BubbleSort {
 
             // update the number of swap required
             swapTimes = lastSwapIndex;
+
+            // print the sort step
+            System.out.println(Arrays.toString(array));
 
             // if the array has not been swapped, break the loop
             if (lastSwapIndex == 0) break;

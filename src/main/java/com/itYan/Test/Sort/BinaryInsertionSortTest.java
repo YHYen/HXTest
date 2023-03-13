@@ -16,22 +16,14 @@ public class BinaryInsertionSortTest {
         //System.out.println("Please how many numbers your array have: ");
         //Integer[] array = ArrayUtil.createRandomArray(sc.nextInt());
 
-
         // show original array
-        System.out.println("==========================");
         System.out.println("The original array");
         System.out.println(Arrays.toString(array));
-
-        BubbleSort.sort(array);
-        // show array after sort
-        System.out.println("Array after sort");
-        System.out.println(Arrays.toString(array));// show original array
         System.out.println("==========================");
-        System.out.println("The original array");
-        System.out.println(Arrays.toString(array));
 
         BinaryInsertionSort.binarySort(array);
         // show array after sort
+        System.out.println("==========================");
         System.out.println("Array after sort");
         System.out.println(Arrays.toString(array));
     }
