@@ -1,4 +1,4 @@
-package main.java.com.itYan.Test;
+package main.java.com.itYan.Test.Sort;
 
 import main.java.com.itYan.Method.Sort.BubbleSort;
 

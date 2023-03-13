@@ -1,4 +1,4 @@
-package main.java.com.itYan.Test;
+package main.java.com.itYan.Test.Draw;
 
 import main.java.com.itYan.Method.Draw.DrawDiamond;
 
