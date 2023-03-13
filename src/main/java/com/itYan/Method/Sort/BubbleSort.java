@@ -1,0 +1,32 @@
+package main.java.com.itYan.Method.Sort;
+
+import main.java.com.itYan.Utils.SortUtil;
+
+public class BubbleSort {
+
+    /**
+     * bubble sort
+     * @param array array needs to sort
+     * */
+    public static void sort(Comparable[] array) {
+        int swapTimes = array.length - 1;
+        while (true) {
+            int lastSwapIndex = 0;
+            for (int i=0; i<swapTimes; i++) {
+                if (SortUtil.compare(array[i], array[i+1])) {
+                    SortUtil.swap(array, i, i+1);
+
+                    // record the last swap index
+                    // the number after this index is finish sort
+                    lastSwapIndex = i;
+                }
+            }
+
+            // update the number of swap required
+            swapTimes = lastSwapIndex;
+
+            // if the array has not been swapped, break the loop
+            if (lastSwapIndex == 0) break;
+        }
+    }
+}
